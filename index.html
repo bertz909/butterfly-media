@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Butterfly Media — Remote Video Production in Italy</title>
+<meta name="description" content="Professional remote video production based in Italy. Aerial FPV, cinema-grade cameras, live streaming, and event tech for international clients.">
+<link rel="icon" type="image/png" href="assets/logo-micro.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo"><img src="assets/logo-micro.png" alt="Butterfly Media" class="nav-logo-img"><span class="nav-logo-text">butterfly <em>media</em></span></a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#services" data-i18n="nav.services">Services</a></li>
+      <li><a href="#remote" data-i18n="nav.remote">Remote Production</a></li>
+      <li><a href="#equipment" data-i18n="nav.equipment">Equipment</a></li>
+      <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      <li><button class="lang-switch" onclick="toggleLang()">IT / EN</button></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <img src="assets/logo-full.png" alt="Butterfly Media" class="hero-logo">
+    <div class="hero-badge" data-i18n="hero.badge">Based in Italy — Available Worldwide</div>
+    <h1 data-i18n-html="hero.title">Your <em>Italian</em> production crew. Remote-ready.</h1>
+    <p data-i18n="hero.subtitle">Professional video production, aerial cinematography, and live event technology. We deliver cinema-grade results for international clients — without flying in a crew.</p>
+    <a href="#contact" class="hero-cta" data-i18n="hero.cta">Get in Touch &#8594;</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label" data-i18n="services.label">What We Do</span>
+      <h2 class="section-title" data-i18n="services.title">Professional B2B Production Services</h2>
+      <p class="section-subtitle" data-i18n="services.subtitle">We specialize in mission-critical productions where excellence is not optional. From complex industrial shoots to live-streamed corporate events, we deliver certainty of result.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card featured reveal">
+        <div class="service-tag" data-i18n="services.remote.tag">&#9733; Core Service</div>
+        <div class="service-icon">&#127758;</div>
+        <h3 data-i18n="services.remote.title">Remote Production in Italy</h3>
+        <p data-i18n="services.remote.desc">Your eyes and hands on the ground in Italy. We handle the entire shoot while you direct remotely via live stream. Real-time proxy uploads to your cloud, full communication throughout. No need to send a crew — we are your crew.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">&#127916;</div>
+        <h3 data-i18n="services.video.title">Video Production &amp; Filmmaking</h3>
+        <p data-i18n="services.video.desc">End-to-end video production with cinema-grade equipment. Corporate films, product showcases, industrial documentation, and branded content. From concept to final delivery.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">&#128681;</div>
+        <h3 data-i18n="services.drone.title">Aerial &amp; FPV Drone Services</h3>
+        <p data-i18n="services.drone.desc">Licensed drone operations including cinematic FPV, standard aerial, and specialized indoor cinewhoop flights. Custom-built rigs for any environment — from tight industrial spaces to wide open landscapes.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">&#128225;</div>
+        <h3 data-i18n="services.live.title">Live Streaming &amp; Event Tech</h3>
+        <p data-i18n="services.live.desc">Complete live production infrastructure: multi-camera switching, PTZ systems, 4K streaming, internet bonding with Starlink redundancy, LED walls, professional audio, and lighting. Mission-critical events, zero compromises.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REMOTE PRODUCTION -->
+<section class="remote-section" id="remote">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <span class="section-label" data-i18n="remote.label">How It Works</span>
+      <h2 class="section-title" data-i18n="remote.title">Remote Production, Zero Compromise</h2>
+      <p class="section-subtitle" style="margin-left:auto;margin-right:auto;" data-i18n="remote.subtitle">Hire a full Italian production crew without the travel costs. You stay in control — we deliver the footage.</p>
+    </div>
+    <div class="remote-grid reveal">
+      <div class="remote-step">
+        <div class="step-number">1</div>
+        <h3 data-i18n="remote.step1.title">Brief &amp; Plan</h3>
+        <p data-i18n="remote.step1.desc">Share your creative brief, shot list, and schedule. We scout locations, handle permits, and prepare the technical setup tailored to your needs.</p>
+      </div>
+      <div class="remote-step">
+        <div class="step-number">2</div>
+        <h3 data-i18n="remote.step2.title">Shoot &amp; Stream</h3>
+        <p data-i18n="remote.step2.desc">On shoot day, watch everything live via secure stream. Direct our crew in real-time. Proxies upload to your cloud as we shoot — no waiting.</p>
+      </div>
+      <div class="remote-step">
+        <div class="step-number">3</div>
+        <h3 data-i18n="remote.step3.title">Deliver</h3>
+        <p data-i18n="remote.step3.desc">Full-resolution masters delivered to your cloud or hard drive. Organized, logged, and ready for your post-production pipeline.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPMENT -->
+<section id="equipment">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label" data-i18n="equip.label">Our Gear</span>
+      <h2 class="section-title" data-i18n="equip.title">Professional Equipment</h2>
+      <p class="section-subtitle" data-i18n="equip.subtitle">Cinema-grade gear, owned and operated. For specialized requests, we partner with local rental houses to source any camera, lens, or grip package.</p>
+    </div>
+    <div class="equipment-grid">
+      <div class="equip-category reveal">
+        <h3><span class="eq-icon">&#127909;</span> <span data-i18n="equip.cinema.title">Cinema &amp; Camera Systems</span></h3>
+        <ul>
+          <li>DJI Ronin 4D 6K — full system w/ remote monitor, lenses &amp; accessories</li>
+          <li>Sony FX3 — cinema line, full-frame 4K120</li>
+          <li>Sony A7S III — low-light specialist</li>
+          <li>Sony A7R V — high-resolution stills &amp; video</li>
+          <li>Sony A7C — compact full-frame</li>
+          <li data-i18n="equip.cinema.lenses">Multiple cine &amp; photo lenses</li>
+        </ul>
+      </div>
+      <div class="equip-category reveal">
+        <h3><span class="eq-icon">&#128681;</span> <span data-i18n="equip.drones.title">Drone Fleet</span></h3>
+        <ul>
+          <li>DJI Mavic 3 &amp; Mavic 4 — aerial cinema</li>
+          <li>DJI Avata 2 — immersive FPV</li>
+          <li>DJI Mini 3 &amp; Mini 4 — lightweight ops</li>
+          <li data-i18n="equip.drones.cw">Custom FPV cinewhoop — indoor &amp; tight spaces</li>
+          <li data-i18n="equip.drones.fs">Custom FPV freestyle — high-speed cinematic</li>
+        </ul>
+      </div>
+      <div class="equip-category reveal">
+        <h3><span class="eq-icon">&#128225;</span> <span data-i18n="equip.live.title">Live Production</span></h3>
+        <ul>
+          <li data-i18n="equip.live.1">4K video mixer &amp; PTZ camera systems</li>
+          <li data-i18n="equip.live.2">Internet bonding with Starlink backup</li>
+          <li data-i18n="equip.live.3">Professional audio &amp; timecode systems</li>
+          <li data-i18n="equip.live.4">Battery &amp; wired lighting kits</li>
+        </ul>
+      </div>
+      <div class="equip-category reveal">
+        <h3><span class="eq-icon">&#127916;</span> <span data-i18n="equip.action.title">Action &amp; Specialty</span></h3>
+        <ul>
+          <li>DJI Action cameras</li>
+          <li>Insta360 — 360&deg; capture</li>
+          <li>GoPro — rugged POV</li>
+          <li data-i18n="equip.action.rent">Rental partnerships for specialized gear</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" style="background:var(--bg-secondary);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label" data-i18n="portfolio.label">Selected Work</span>
+      <h2 class="section-title" data-i18n="portfolio.title">Portfolio</h2>
+      <p class="section-subtitle" data-i18n="portfolio.subtitle">A selection of our projects. Many of our productions are under NDA — contact us to learn more about our experience in your industry.</p>
+    </div>
+    <div class="portfolio-grid" id="portfolio-grid">
+      <!-- Portfolio items will be populated here -->
+      <div class="portfolio-item reveal">
+        <div class="portfolio-embed"><div class="portfolio-placeholder">&#127916;</div></div>
+        <div class="portfolio-info">
+          <h3>Schuberth C5</h3>
+          <div class="portfolio-meta"><span>2021</span><span>FPV Aerials</span></div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="portfolio-embed"><div class="portfolio-placeholder">&#127916;</div></div>
+        <div class="portfolio-info">
+          <h3>2038 — The New Serenity</h3>
+          <div class="portfolio-meta"><span>2021</span><span>FPV Aerials</span></div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="portfolio-embed"><div class="portfolio-placeholder">&#127916;</div></div>
+        <div class="portfolio-info">
+          <h3>Ohvale GP2</h3>
+          <div class="portfolio-meta"><span>2021</span><span>FPV Aerials</span></div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="portfolio-embed"><div class="portfolio-placeholder">&#127916;</div></div>
+        <div class="portfolio-info">
+          <h3>AMG Trivellato</h3>
+          <div class="portfolio-meta"><span>2020</span><span>Inspire2 &amp; FPV Aerials</span></div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="portfolio-embed"><div class="portfolio-placeholder">&#127916;</div></div>
+        <div class="portfolio-info">
+          <h3>M34 Powerboat Experience</h3>
+          <div class="portfolio-meta"><span>2020</span><span>Inspire2 &amp; FPV Aerials</span></div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="portfolio-embed"><div class="portfolio-placeholder">&#127916;</div></div>
+        <div class="portfolio-info">
+          <h3>Huracan</h3>
+          <div class="portfolio-meta"><span>2020</span><span>Aerials &amp; Cameracars</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label" data-i18n="contact.label">Get in Touch</span>
+      <h2 class="section-title" data-i18n="contact.title">Start Your Project</h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info reveal">
+        <p data-i18n="contact.info">Tell us about your project and we will get back to you within 24 hours. We work with productions of any scale — from a single shoot day to multi-week campaigns across Italy.</p>
+        <div class="contact-socials">
+          <a href="#" class="social-link" id="social-fb" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+          <a href="#" class="social-link" id="social-ig" aria-label="Instagram" target="_blank" rel="noopener">&#9679;</a>
+        </div>
+      </div>
+      <form class="contact-form reveal" id="contact-form" onsubmit="return handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-name" data-i18n="contact.form.name">Name</label>
+            <input type="text" id="cf-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-email" data-i18n="contact.form.email">Email</label>
+            <input type="email" id="cf-email" name="email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cf-company" data-i18n="contact.form.company">Company</label>
+          <input type="text" id="cf-company" name="company">
+        </div>
+        <div class="form-group">
+          <label for="cf-service" data-i18n="contact.form.service">Service Interested In</label>
+          <select id="cf-service" name="service">
+            <option value="" data-i18n="contact.form.select">Select a service...</option>
+            <option value="remote" data-i18n="contact.form.opt.remote">Remote Production in Italy</option>
+            <option value="video" data-i18n="contact.form.opt.video">Video Production</option>
+            <option value="drone" data-i18n="contact.form.opt.drone">Aerial / FPV Drone</option>
+            <option value="live" data-i18n="contact.form.opt.live">Live Streaming / Event Tech</option>
+            <option value="other" data-i18n="contact.form.opt.other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="cf-message" data-i18n="contact.form.message">Tell us about your project</label>
+          <textarea id="cf-message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="form-submit" data-i18n="contact.form.send">Send Message &#8594;</button>
+        <div class="form-status" id="form-status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Butterfly Media. P.IVA: [TBD] — <a href="#hero">Back to top</a></p>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
