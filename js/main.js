@@ -33,6 +33,26 @@ window.addEventListener('scroll', () => {
   lastScroll = scrollY;
 });
 
+// ========== PORTFOLIO EXPAND/COLLAPSE ==========
+function togglePortfolio() {
+  const grid = document.getElementById('portfolio-grid');
+  const btn = document.getElementById('portfolio-toggle');
+  const lang = document.documentElement.dataset.lang || 'en';
+  const expanded = grid.classList.toggle('expanded');
+
+  if (expanded) {
+    btn.innerHTML = lang === 'it' ? 'Mostra Meno &#8593;' : 'Show Less &#8593;';
+    // Trigger reveal on newly visible items
+    grid.querySelectorAll('.portfolio-hidden.reveal:not(.visible)').forEach(el => {
+      revealObserver.observe(el);
+    });
+  } else {
+    btn.innerHTML = lang === 'it' ? 'Mostra Tutti &#8595;' : 'Show More &#8595;';
+    // Scroll back to portfolio section
+    document.getElementById('portfolio').scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
 // ========== CONTACT FORM ==========
 // Uses Formspree, Getform, or similar. Replace the endpoint.
 const FORM_ENDPOINT = ''; // e.g. 'https://formspree.io/f/YOUR_ID'

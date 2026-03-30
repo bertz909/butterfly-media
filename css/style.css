@@ -305,6 +305,46 @@ section { padding: 100px 0; }
   display: flex; align-items: center; gap: 12px;
 }
 
+/* Portfolio expand/collapse */
+.portfolio-hidden { display: none; }
+.portfolio-grid.expanded .portfolio-hidden { display: block; }
+
+.portfolio-toggle {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 28px; background: transparent;
+  border: 1px solid var(--border-subtle); border-radius: var(--radius);
+  color: var(--text-secondary); font-family: var(--font);
+  font-size: 0.9rem; font-weight: 500; cursor: pointer;
+  transition: all var(--transition);
+}
+.portfolio-toggle:hover {
+  border-color: var(--accent-green); color: var(--accent-green);
+  background: var(--accent-green-dim);
+}
+
+/* External video placeholder (IG / FB) */
+.portfolio-external {
+  cursor: pointer; background: var(--bg-card);
+}
+.portfolio-external .portfolio-placeholder {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 8px; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  transition: all var(--transition);
+}
+.portfolio-external:hover .portfolio-placeholder {
+  color: var(--accent-green);
+}
+.portfolio-external .portfolio-placeholder span:first-child {
+  font-size: 2.5rem;
+}
+.portfolio-external .ext-label {
+  font-size: 0.8rem; font-weight: 500; text-transform: uppercase;
+  letter-spacing: 1px; color: var(--text-muted);
+}
+.portfolio-external:hover .ext-label {
+  color: var(--accent-green);
+}
+
 /* ========== CONTACT ========== */
 .contact-section {
   background: var(--bg-secondary); border-top: 1px solid var(--border-subtle);
