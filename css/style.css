@@ -60,7 +60,7 @@ nav {
 .nav-logo-text em { font-style: italic; font-weight: 400; color: var(--accent-green); }
 
 .hero-logo {
-  max-width: 260px; margin: 0 auto 32px; border-radius: var(--radius-lg);
+  max-width: 400px; margin: 0 auto 32px; border-radius: var(--radius-lg);
 }
 
 .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
@@ -115,9 +115,9 @@ nav {
 .hero-content { position: relative; z-index: 1; max-width: 800px; }
 
 .hero-badge {
-  display: inline-block; padding: 6px 16px;
+  display: inline-block; padding: 4px 12px;
   border: 1px solid var(--accent-green); border-radius: 50px;
-  font-size: 0.8rem; font-weight: 500; color: var(--accent-green);
+  font-size: 0.65rem; font-weight: 500; color: var(--accent-green);
   margin-bottom: 32px; text-transform: uppercase; letter-spacing: 1.5px;
 }
 
