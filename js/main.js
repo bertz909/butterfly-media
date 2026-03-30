@@ -86,8 +86,7 @@ function handleSubmit(e) {
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nCompany: ${company || 'N/A'}\nService: ${service || 'N/A'}\n\n${message}`
     );
-    // Replace with actual email
-    window.location.href = `mailto:info@butterflymedia.it?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:nicola.bertato@gmail.com?subject=${subject}&body=${body}`;
 
     status.className = 'form-status success';
     status.textContent = lang === 'it'

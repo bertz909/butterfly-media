@@ -228,6 +228,12 @@ section { padding: 100px 0; }
   max-width: 650px; line-height: 1.7; margin-bottom: 60px;
 }
 
+.section-subtitle-accent {
+  font-size: 1.1rem; color: var(--text-primary);
+  max-width: 650px; line-height: 1.7; margin-bottom: 60px;
+  font-weight: 500;
+}
+
 /* ========== REMOTE PRODUCTION ========== */
 .remote-section {
   background: var(--bg-secondary);
@@ -253,7 +259,13 @@ section { padding: 100px 0; }
 
 /* ========== EQUIPMENT ========== */
 .equipment-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;
+}
+@media (max-width: 1024px) {
+  .equipment-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .equipment-grid { grid-template-columns: 1fr; }
 }
 .equip-category {
   background: var(--bg-card); border: 1px solid var(--border-subtle);
@@ -278,7 +290,13 @@ section { padding: 100px 0; }
 
 /* ========== PORTFOLIO ========== */
 .portfolio-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+}
+@media (max-width: 1024px) {
+  .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .portfolio-grid { grid-template-columns: 1fr; }
 }
 .portfolio-item {
   background: var(--bg-card); border: 1px solid var(--border-subtle);

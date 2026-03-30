@@ -24,7 +24,8 @@ const translations = {
     "services.live.desc": "Complete live production infrastructure: multi-camera switching, PTZ systems, 4K streaming, internet bonding with Starlink redundancy.",
     "remote.label": "How It Works",
     "remote.title": "Remote Production, Zero Compromise",
-    "remote.subtitle": "Hire a full production crew without the travel costs. You stay in control \u2014 we deliver the footage.",
+    "remote.subtitle": "Hire a full production crew without the travel costs.",
+    "remote.subtitle2": "You stay in control, we deliver the footage.",
     "remote.step1.title": "Brief & Plan",
     "remote.step1.desc": "Share your creative brief, shot list, and schedule. We scout locations, handle permits and prepare the technical setup and crew tailored to your needs.",
     "remote.step2.title": "Shoot & Stream",
@@ -71,7 +72,7 @@ const translations = {
     "contact.form.success": "Message sent! We will get back to you soon.",
     "contact.form.error": "Something went wrong. Please email us directly.",
     "contact.form.spam": "Spam detected.",
-    "footer.top": "Back to top"
+    "footer.text": "\u00a9 2026 Butterfly Media. VAT: 05031810285"
   },
   it: {
     "nav.services": "Servizi",
@@ -98,7 +99,8 @@ const translations = {
     "services.live.desc": "Infrastruttura completa per produzioni live: regia multicamera, sistemi PTZ, streaming 4K, internet bonding con ridondanza Starlink.\nCollaboriamo con i nostri partner per fornire servizi completi per eventi, inclusi maxi schermi LEDWALL, audio e luci.",
     "remote.label": "Come Funziona",
     "remote.title": "Produzione Remota, Zero Compromessi",
-    "remote.subtitle": "Una troupe completa senza i costi di trasferta. Voi mantenete il controllo \u2014 noi consegniamo il girato.",
+    "remote.subtitle": "Una troupe completa senza i costi di trasferta.",
+    "remote.subtitle2": "Voi dirigete, noi giriamo.",
     "remote.step1.title": "Brief & Pianificazione",
     "remote.step1.desc": "Condividete il brief creativo, la shot list e il calendario. Noi facciamo sopralluoghi, gestiamo i permessi e prepariamo il setup tecnico su misura.",
     "remote.step2.title": "Riprese & Streaming",
@@ -145,7 +147,7 @@ const translations = {
     "contact.form.success": "Messaggio inviato! Ti risponderemo al pi\u00f9 presto.",
     "contact.form.error": "Qualcosa \u00e8 andato storto. Scrivici direttamente via email.",
     "contact.form.spam": "Spam rilevato.",
-    "footer.top": "Torna su"
+    "footer.text": "\u00a9 2026 Butterfly Media. P.IVA: 05031810285"
   }
 };
 
