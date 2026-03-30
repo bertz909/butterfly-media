@@ -44,6 +44,15 @@ function handleSubmit(e) {
   const status = document.getElementById('form-status');
   const lang = document.documentElement.dataset.lang || 'en';
 
+  // Honeypot anti-spam check
+  const honeypot = form.querySelector('[name="website"]');
+  if (honeypot && honeypot.value) {
+    status.className = 'form-status error';
+    const t = translations || {};
+    status.textContent = (t[lang] && t[lang]['contact.form.spam']) || 'Spam detected.';
+    return false;
+  }
+
   // If no endpoint configured, use mailto fallback
   if (!FORM_ENDPOINT) {
     const data = new FormData(form);
