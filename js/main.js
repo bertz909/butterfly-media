@@ -55,7 +55,7 @@ function togglePortfolio() {
 
 // ========== CONTACT FORM ==========
 // Uses Formspree, Getform, or similar. Replace the endpoint.
-const FORM_ENDPOINT = ''; // e.g. 'https://formspree.io/f/YOUR_ID'
+const FORM_ENDPOINT = 'send.php';
 
 function handleSubmit(e) {
   e.preventDefault();
